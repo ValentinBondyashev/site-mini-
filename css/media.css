@@ -1,0 +1,194 @@
+@media screen and (max-width: 1200px){
+	.about-wrap-skills-content{
+		margin-left: 50px;
+	}
+
+	.heading{
+		margin: 0px auto 50px;
+	}
+
+	.heading-head{
+		width:auto;	
+	}
+
+	.header-wrap{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.logo{
+		margin-bottom: 40px;
+	}
+
+	.about-wrap-skills-img{
+		max-width: 40%;
+	}
+
+	.about-wrap-skills-img img{
+		width: 100%;
+	}
+	.header-menu-item:first-child{
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 1025px){
+	.wrapper{
+		padding: 0 20px;
+	}
+
+	.about-wrap{
+		flex-direction: column;
+	}
+	
+	.about-wrap-img{
+		margin: 30px auto;
+	}
+
+	.service-price {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.service-price .service-block {
+		align-items: center;
+		justify-content: center;
+		max-width: 500px;
+		margin-bottom: 30px;
+	}
+	.pricing{
+		margin: 0;
+	}
+	.contact-form{
+		justify-content: flex-start;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.about, .team, .service, .works , .contact{
+		padding: 40px 0;
+	}
+
+	.contact-form-block {
+		padding-top: 0px; 
+	}
+	.header-menu-item{
+		margin: 0 10px;
+	}
+
+
+	.header-menu-item:after{
+		display: none;
+	}
+	
+	.about-wrap-skills-img{
+		display: none;
+	}
+
+	.heading{
+		flex-direction: column;
+	}
+
+	.heading-text {
+		text-align: center;
+	}
+
+	.heading-head{
+		margin-bottom: 30px;
+		margin-right: 0px;
+	}
+
+	.heading-head:after{
+		width: 100%;
+		height: 4px;
+		margin: 10px auto;
+		top: 100%;
+		left: 0;
+	}
+	
+	.banner {
+		padding-top: 385px;
+	}
+
+	.portfolio-list-item {
+		width: 48%;
+		margin: 0 1%;
+	}
+
+	.footer-flex {
+		flex-direction: column;
+	}
+	.copyright{
+		padding-bottom: 10px; 
+	}
+}
+
+@media screen and (max-width: 800px){
+	.quote-block {
+		padding: 0 5px;
+		text-align: center;
+		font-size: 35px;
+	}
+	.quote-header:after, .quote-header:before {
+		display: none;
+	}
+	.block-facts {
+		flex-wrap: wrap;
+	}
+	.pricing{
+		width: 100%;
+		flex-direction: column;
+	}
+	.pricing-item {
+		width: 100%;
+		border: 1px solid #e6e6e6;
+	}
+	.pricing-item:first-child {
+		margin-top: 0px;
+		border: 1px solid #e6e6e6;
+	}
+	.pricing-item:last-child {
+		margin-top: 0px;
+		border: 1px solid #e6e6e6;
+	}
+	.banner-header_bt {
+		font-size: 30px;
+	}
+
+	.banner-header_md {
+		font-size: 50px;
+	}
+
+	.banner-header {
+		font-size: 40px;
+		margin-bottom: 50px;
+	}
+
+	.banner .slick-dots {
+		margin-top: 50px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.contsct-wrap {
+		flex-direction: column;
+	}
+
+	.contact-form, .contact-info {
+		width: 100%;
+	}
+	input.btn, button.btn{
+		display: block;
+		margin: 0 auto;
+	}
+
+	.mamber {
+		height: 470px;
+		width: 100%;
+	}
+
+	.contact-info{
+		margin-top: 30px;
+		padding: 0;
+	}
+}
